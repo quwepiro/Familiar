@@ -25,31 +25,31 @@ import com.javonharper.familiar.R;
 
 import java.util.TimerTask;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 
 public class HabitTimerActivity extends BaseActivity {
-    @Bind(R.id.habit_name)
+    @BindView(R.id.habit_name)
     TextView habitName;
-    @Bind(R.id.pause_container)
+    @BindView(R.id.pause_container)
     LinearLayout pauseButtonContainer;
-    @Bind(R.id.resume_container)
+    @BindView(R.id.resume_container)
     LinearLayout resumeButtonContainer;
-    @Bind(R.id.done_container)
+    @BindView(R.id.done_container)
     LinearLayout doneContainer;
-    @Bind(R.id.timer_active_container)
+    @BindView(R.id.timer_active_container)
     LinearLayout timerActiveContainer;
-    @Bind(R.id.pause_button)
+    @BindView(R.id.pause_button)
     TextView stopButton;
-    @Bind(R.id.resume_button)
+    @BindView(R.id.resume_button)
     TextView resumeButton;
-    @Bind(R.id.done_button)
+    @BindView(R.id.done_button)
     TextView doneButton;
-    @Bind(R.id.fast_quit_button)
+    @BindView(R.id.fast_quit_button)
     TextView fastQuitButton;
-    @Bind(R.id.time_left)
+    @BindView(R.id.time_left)
     TextView timeLeft;
 
     private HabitController controller;

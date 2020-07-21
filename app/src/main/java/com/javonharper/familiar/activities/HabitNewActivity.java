@@ -15,14 +15,14 @@ import com.javonharper.familiar.R;
 
 import java.util.Map;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class HabitNewActivity extends BaseActivity {
 
-    @Bind(R.id.name_edit) EditText nameEdit;
-    @Bind(R.id.times_per_duration_edit) EditText timesPerWeekEdit;
-    @Bind(R.id.duration_edit) TextView durationEdit;
+    @BindView(R.id.name_edit) EditText nameEdit;
+    @BindView(R.id.times_per_duration_edit) EditText timesPerWeekEdit;
+    @BindView(R.id.duration_edit) TextView durationEdit;
 
     private HabitController controller;
 

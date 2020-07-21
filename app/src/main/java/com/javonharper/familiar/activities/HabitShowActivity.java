@@ -15,27 +15,27 @@ import com.javonharper.familiar.Habit;
 import com.javonharper.familiar.HabitController;
 import com.javonharper.familiar.R;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 public class HabitShowActivity extends BaseActivity {
-    @Bind(R.id.name_label)
+    @BindView(R.id.name_label)
     TextView nameLabel;
-    @Bind(R.id.duration_label)
+    @BindView(R.id.duration_label)
     TextView durationLabel;
-    @Bind(R.id.duration_value)
+    @BindView(R.id.duration_value)
     TextView durationValue;
-    @Bind(R.id.frequency_value)
+    @BindView(R.id.frequency_value)
     TextView frequencyValue;
-    @Bind(R.id.habit_current_progress)
+    @BindView(R.id.habit_current_progress)
     TextView currentProgressValue;
-    @Bind(R.id.times_this_week)
+    @BindView(R.id.times_this_week)
     TextView thisWeek;
-    @Bind(R.id.increment_progress_button)
+    @BindView(R.id.increment_progress_button)
     Button incrementProgressButton;
-    @Bind(R.id.start_timer_button)
+    @BindView(R.id.start_timer_button)
     Button startTimerButton;
-    @Bind(R.id.reset_progress)
+    @BindView(R.id.reset_progress)
     Button resetProgressButton;
 
     private HabitController controller;

@@ -24,15 +24,15 @@ import com.javonharper.familiar.R;
 import java.util.Collections;
 import java.util.List;
 
-import butterknife.Bind;
+import butterknife.BindView;
 import butterknife.ButterKnife;
 
 
 public class HabitIndexActivity extends BaseActivity {
     public static String HABIT_ID = "habitId";
 
-    @Bind(R.id.habit_list) ListView habitListView;
-    @Bind(R.id.empty_state) RelativeLayout emptyState;
+    @BindView(R.id.habit_list) ListView habitListView;
+    @BindView(R.id.empty_state) RelativeLayout emptyState;
 
     private HabitController mController;
     private List<Habit> mHabits;

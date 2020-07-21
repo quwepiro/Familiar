@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/white"
-    tools:context=".HabitIndexActivity">
+    tools:context=".activities.HabitIndexActivity">
 
     <include layout="@layout/empty_state"/>
 
