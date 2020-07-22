@@ -60,9 +60,9 @@ public class FloatingActionButton extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         setClickable(true);
-        canvas.drawCircle(getWidth() / 2, getHeight() / 2, (float) (getWidth() / 2.6), mButtonPaint);
-        canvas.drawBitmap(mBitmap, (getWidth() - mBitmap.getWidth()) / 2,
-                (getHeight() - mBitmap.getHeight()) / 2, mDrawablePaint);
+        canvas.drawCircle(getWidth() / 2f, getHeight() / 2f, (float) (getWidth() / 2.6), mButtonPaint);
+        canvas.drawBitmap(mBitmap, (getWidth() - mBitmap.getWidth()) / 2.6f,
+                (getHeight() - mBitmap.getHeight()) / 2.6f, mDrawablePaint);
     }
 
     @Override
